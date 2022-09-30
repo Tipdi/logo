@@ -75,6 +75,8 @@
 .container_about{
     
     margin: 105px auto 85px;
+    padding-left: 50px;
+    padding-right: 20px;
 }
 
 .about_title{
