@@ -1,11 +1,15 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     font-size: 16px;
     font-weight: normal;
 
-}
+} */
+body{
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 
+}
 
 .container {
     width:  1070px;
@@ -20,9 +24,9 @@
     padding-bottom: 35px;
 
 }
-.header_flex, .container_about, .footer_flex{
+.header_flex, .container_flex, .footer_flex{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -75,8 +79,7 @@
 .container_about{
     
     margin: 105px auto 85px;
-    padding-left: 100px;
-    padding-right: 50px;
+
 }
 
 .about_title{
